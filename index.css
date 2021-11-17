@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Nunito+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Nunito, sans-serif;
+    line-height: 2;
+    color: white;
+}
+body{
+    background: white;
+}
+a {
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+}
+.navbar{
+    margin-top: 5em;
+    background-color: rgba(0,0,0,0.5);
+}
+li{
+    display: inline;
+}
+ul{
+    list-style: none;
+}
+.recent{
+    margin-top: 5em;
+    padding: 1em;
+    word-break: normal;
+    background-blend-mode: darken;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(58, 58, 187); 
+}
+#recent-nav:hover{
+    background: rgb(58, 58, 187);
+    border-radius: 10px;
+}
+.ten-attacks{
+    color: white;
+    background-color: rgba(196, 67, 67);
+    border-radius: 10px;
+    margin-top: 5em;
+    padding: 2em;
+}
+#attacks-nav:hover{
+    background-color: rgba(196, 67, 67);
+    border-radius: 10px;
+}
+.span{
+    color: black;
+    font-weight: 900;
+}
+#blockchain{
+    background: rgb(13, 46, 13, 0.5);
+    border-radius: 10px;
+    margin-top: 5em;
+    padding: 2em;
+}
+#blockchain-nav:hover{
+    background-color:rgba(33, 133, 33) ;
+    border-radius: 10px;
+}
+#VPNs{
+    margin-top: 5em;
+    padding: 2em;
+    background-color: rgb(41, 63, 56);
+    border-radius: 10px;
+}
+#VPNs-nav:hover{
+    background-color: rgb(134, 202, 180);
+    border-radius: 10px;
+}
+#Risk{
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 2em;
+    margin-top: 5em;
+}
+#Risk-nav:hover{
+    background-color: blueviolet;
+}
+
+.sources{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin-top: 5em;
+}

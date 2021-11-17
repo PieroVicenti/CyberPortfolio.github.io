@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Cyber Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <a href="#recent"><li id="recent-nav">Recent Cyber Attack</li></a>
+            <a href="#attacks"><li id="attacks-nav">10 Common attacks</li></a>
+            <a href="#blockchain"><li id="blockchain-nav">Blockchain</li></a>
+            <a href="#VPNs"><li id="VPNs-nav">VPNs</li></a>
+            <a href="#Risk"><li id="Risk-nav">Risk v Cost v Usability</li></a>
+        </ul>
+    </nav>
+    <section class="recent">
+        <div class="overlay"></div>
+        <h1>RECENT CYBER ATTACK</h1>
+        <p>A cybercriminal pulled off the heist after compromising a bZx developer’s PC and stealing their personal cryptocurrency
+        wallet’s private keys via a phishing attack, bZx revealed on Friday (November 5).
+        The attacker then drained the developer’s wallet and obtained keys to the bZx protocol’s Polygon and Binance Smart Chain
+        (BSC) deployments.
+        The hacker subsequently “drained the BSC and Polygon protocol, then upgraded the contract to allow draining of all
+        tokens that the contracts had given unlimited approval”, said bZx in a ‘preliminary post mortem’.
+        Blockchain security firm SlowMist has estimated that the crypto-thief made off with more than $55 million.
+        In response, bZx tweeted that “roughly 25% of this figure is personal losses from the team wallet that was compromised”.</p>
+        <br>
+        <h2>IMPACT</h2>
+        <p>$55 Million, 25% of this figure is personal losses from the team wallet that was compromised.</p>
+        <br>
+        <h2>WHO WAS RESPONSIBLE</h2>
+        <p>Still unknown</p>
+        <br>
+        <H2>WHAT ACTIONS HAVE THE VICTIMS TAKEN?</H2>
+        <p>Freezing wallets,
+        bZx found the hacker’s IP address and tracked stolen funds to a number of wallet addresses after being alerted to
+        suspicious activity on a user account on the morning of November 5.
+        It subsequently disabled the user interface on Polygon and BSC to prevent further user deposits, and contacted Tether,
+        Binance, and USDC, requesting that the cryptocurrency platforms freeze the hacker’s wallets.
+        In its latest Twitter update posted Sunday (November 7), bZx said: “Over the weekend, we spoke with the law firm funded
+        by the DAO which is assisting with this case and bringing the information collected on the attacker to the FBI…
+        Discussions have begun around possible terms of compensation in various channels.”
+        bZx has implored the hacker to return the stolen funds, referencing a “potential bounty”.
+        A similar gambit apparently paid off in September 2020 when a hacker who siphoned $8 million via a security flaw in
+        bZx’s smart contract later agreed to return the stolen funds, bZx co-founder Kyle Kistner claimed at the time.
+        bZx also succumbed to a pair of quick-fire ‘flash loan’ attacks in February 2020 that together resulted in total losses
+        of $954,000.
+    </p>
+        <br>
+        <h2>VULNERABILITIES AND PREVENTION</h2>
+        <p>This company must assess how vulnerable they are to phishing attacks through penetration testing engagements and implementing the
+        findings in security awareness training programs.</p>
+    </section>
+    <section class="ten-attacks" id="attacks">
+        <h2>10 MOST COMMON ATTACKS</h2>
+        <ul>
+            <span class="span"><li>MALWARE</li></span>
+            <p>Malware is so common that there is a large variety of modus operandi. The most common types being:
+            <br>
+            <span class="span">-Viruses</span> these infect applications attaching themselves to the initialization sequence. The virus replicates itself,
+            infecting other code in the computer system. Viruses can also attach themselves to executable code or associate
+            themselves with a file by creating a virus file with the same name but with an .exe extension, thus creating a decoy
+            which carries the virus.
+            <br>
+            <span class="span">-Trojans</span> a program hiding inside a useful program with malicious purposes. Unlike viruses, a trojan doesn’t replicate
+            itself and it is commonly used to establish a backdoor to be exploited by attackers.
+            <br>
+            <span class="span">-Worms</span> unlike viruses, they don’t attack the host, being self-contained programs that propagate across networks and
+            computers. Worms are often installed through email attachments, sending a copy of themselves to every contact in the
+            infected computer email list. They are commonly used to overload an email server and achieve a denial-of-service attack.
+            <br>
+            <span class="span">-Ransomware</span> a type of malware that denies access to the victim data, threatening to publish or delete it unless a ransom
+            is paid. Advanced ransomware uses cryptoviral extortion, encrypting the victim’s data so that it is impossible to
+            decrypt without the decryption key.
+            <br>
+            <span class="span">-Spyware</span> a type of program installed to collect information about users, their systems or browsing habits, sending the
+            data to a remote user. The attacker can then use the information for blackmailing purposes or download and install other
+            malicious programs from the web</p>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <br>
+        <span class="span"><li>PHISHING</li></span>
+        <p>Phishing attacks are extremely common and involve sending mass amounts of fraudulent emails to unsuspecting users,
+        disguised as coming from a reliable source. The fraudulent emails often have the appearance of being legitimate, but
+        link the recipient to a malicious file or script designed to grant attackers access to your device to control it or
+        gather recon, install malicious scripts/files, or to extract data such as user information, financial info, and more.</p>
+        <p>There are several different types of phishing attacks, including:
+        <br>
+        <span class="span">-Spear Phishing </span>targeted attacks directed at specific companies and/or individuals.
+        <br>
+        <span class="span">-Whaling attacks</span> targeting senior executives and stakeholders within an organization.
+        <br>
+        <span class="span">-Pharming leverages</span> DNS cache poisoning to capture user credentials through a fake login landing page.</p>
+        <br>
+        <br>
+        <br>
+        <span class="span"><li>Man-in-the-Middle (MitM) Attacks</li></span>
+        <p>Occurs when an attacker intercepts a two-party transaction, inserting themselves in the middle. From there, cyber
+        attackers can steal and manipulate data by interrupting traffic.
+        This type of attack usually exploits security vulnerabilities in a network, such as an unsecured public WiFi, to insert
+        themselves between a visitor’s device and the network. The problem with this kind of attack is that it is very difficult
+        to detect, as the victim thinks the information is going to a legitimate destination. Phishing or malware attacks are
+        often leveraged to carry out a MitM attack.</p>
+        <br>
+        <br>
+        <br>
+        <span class="span"><li>Denial-of-Service (DOS) Attack</li></span>
+        <p>DOS attacks work by flooding systems, servers, and/or networks with traffic to overload resources and bandwidth. This
+        result is rendering the system unable to process and fulfill legitimate requests. In addition to denial-of-service (DoS)
+        attacks, there are also distributed denial-of-service (DDoS) attacks.
+        <br>
+        DoS attacks saturate a system’s resources with the goal of impeding response to service requests. On the other hand, a
+        DDoS attack is launched from several infected host machines with the goal of achieving service denial and taking a
+        system offline, thus paving the way for another attack to enter the network/environment.
+        <br>
+        The most common types of DoS and DDoS attacks are the TCP SYN flood attack, teardrop attack, smurf attack, ping-of-death
+        attack, and botnets.</p>
+        <br>
+        <br>
+        <br>
+        <span class="span"><li>SQL INJECTIONS</li></span>
+        <p>This occurs when an attacker inserts malicious code into a server using server query language (SQL) forcing the server
+        to deliver protected information. This type of attack usually involves submitting malicious code into an unprotected
+        website comment or search box. Secure coding practices such as using prepared statements with parameterized queries is
+        an effective way to prevent SQL injections.
+        <br>
+        When a SQL command uses a parameter instead of inserting the values directly, it can allow the backend to run malicious
+        queries. Moreover, the SQL interpreter uses the parameter only as data, without executing it as a code. Learn more about
+        how secure coding practices can prevent SQL injection</p>
+        <br>
+        <br>
+        <br>
+        <span class="span"><li>Zero-day Exploit</li></span>
+        <p>A Zero-day Exploit refers to exploiting a network vulnerability when it is new and recently announced — before a patch
+        is released and/or implemented. Zero-day attackers jump at the disclosed vulnerability in the small window of time where
+        no solution/preventative measures exist. Thus, preventing zero-day attacks requires constant monitoring, proactive
+        detection, and agile threat management practices.</p>
+        <br>
+        <br>
+        <br>
+        <span class="span"><li>Password Attack</li></span>
+        <p>Passwords are the most widespread method of authenticating access to a secure information system, making them an
+        attractive target for cyber attackers. By accessing a person’s password, an attacker can gain entry to confidential or
+        critical data and systems, including the ability to maniuplate and control said data/systems.
+        <br>
+        Password attackers use a myriad of methods to identify an individual password, including using social engineering,
+        gaining access to a password database, testing the network connection to obtain unencrypted passwords, or simply by
+        guessing.</p>
+        <br>
+        <br>
+        <br>
+        <span class="span"><li>Cross-site Scripting</li></span>
+        <p>
+        A cross-site scripting attack sends malicious scripts into content from reliable websites. The malicious code joins the
+        dynamic content that is sent to the victim’s browser. Usually, this malicious code consists of Javascript code executed
+        by the victim’s browser, but can include Flash, HTML and XSS.
+        </p>
+        <br>
+        <br>
+        <br>
+        <span class="span"><li>Rootkits</li></span>
+        <p>
+        Rootkits are installed inside legitimate software, where they can gain remote control and administration-level access
+        over a system. The attacker then uses the rootkit to steal passwords, keys, credentials, and retrieve critical data.
+        <br>
+        Since rootkits hide in legitimate software, once you allow the program to make changes in your OS, the rootkit installs
+        itself in the system (host, computer, server, etc.) and remains dormant until the attacker activates it or it’s
+        triggered through a persistence mechanism. Rootkits are commonly spread through email attachments and downloads from
+        insecure websites.
+        </p>
+        <br>
+        <br>
+        <br>
+        <span class="span"><li>Internet of Things (IoT) Attacks</li></span>
+        <p>
+        While internet connectivity across almost every imaginable device creates convenience and ease for individuals, it also
+        presents a growing—almost unlimited—number of access points for attackers to exploit and wreak havoc. The
+        interconnectedness of things makes it possible for attackers to breach an entry point and use it as a gate to exploit
+        other devices in the network.
+        <br>
+        IoT attacks are becoming more popular due to the rapid growth of IoT devices and (in general) low priority given to
+        embedded security in these devices and their operating systems. In one IoT attack case, a Vegas casino was attacked and
+        the hacker gained entry via an internet-connected thermometer inside one of the casino’s fishtanks.
+        </p>
+    </section>
+    <section id="blockchain">
+        <h2>WHAT EXACTLY IS BLOCKCHAIN?</h2>
+        <p>
+            Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat
+            the system.
+            <br>
+            A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire
+            network of computer systems on the blockchain. Each block in the chain contains a number of transactions, and every time
+            a new transaction occurs on the blockchain, a record of that transaction is added to every participant’s ledger. The
+            decentralised database managed by multiple participants is known as Distributed Ledger Technology (DLT).
+            <br>
+            Blockchain is a type of DLT in which transactions are recorded with an immutable cryptographic signature called a hash.
+            <br>
+            This means if one block in one chain was changed, it would be immediately apparent it had been tampered with. If hackers
+            wanted to corrupt a blockchain system, they would have to change every block in the chain, across all of the distributed
+            versions of the chain.
+            <br>
+            Blockchains such as Bitcoin and Ethereum are constantly and continually growing as blocks are being added to the chain,
+            which significantly adds to the security of the ledger.
+        </p>
+        <br>
+        <h3>Why is there so much hype around blockchain technology?</h3>
+        <br>
+        <p>
+            There have been many attempts to create digital money in the past, but they have always failed.
+            <br>
+            The prevailing issue is trust. If someone creates a new currency called the X dollar, how can we trust that they won't
+            give themselves a million X dollars, or steal your X dollars for themselves?
+            <br>
+            Bitcoin was designed to solve this problem by using a specific type of database called a blockchain. Most normal
+            databases, such as an SQL database, have someone in charge who can change the entries (e.g. giving themselves a million
+            X dollars). Blockchain is different because nobody is in charge; it’s run by the people who use it. What’s more,
+            bitcoins can’t be faked, hacked or double spent – so people that own this money can trust that it has some value.
+        </p>
+    </section>
+    <section id="VPNs">
+        <h2>VPNs</h2>
+        <p>VPN stands for “virtual private network” — a service that protects your internet connection and privacy online. It
+        creates an encrypted tunnel for your data, protects your online identity by hiding your IP address, and allows you to
+        use public Wi-Fi hotspots safely.</p>
+        <br>
+        <h3>What does a VPN do?</h3>
+        <br>
+        <p>
+            Typically, when you try to access a website, your ISP (Internet Service Provider) receives the request and redirects you
+            to your destination. But when you connect to a VPN, it redirects your internet traffic through a VPN server first,
+            before sending it over to your destination. Here’s what happens when you connect to a VPN:
+        </p>
+        <br>
+        <p>
+            VPN changes your IP and masks your location.
+            <br>
+            People working in countries with limited freedom of speech rely on private internet connection for their work.
+            Sometimes, their lives might depend on it. Someone who lives under an authoritarian regime should use a VPN to hide
+            their IP address and ensure extra security for their sensitive messages.
+        </p>
+    </section>
+    <section id="Risk">
+        <h2>What is Cost-Benefit Analysis in Cyber?</h2>
+        <br>
+        <p>Cost-benefit analysis (CBA) is a method used to evaluate a project by comparing its losses and gains — essentially a
+        quantified and qualified list of pros and cons. CBA is a useful way to assess business projects because it reduces the
+        evaluation complexity to a single price figure. As you can imagine, this makes CBA an invaluable tool when it comes to
+        explaining the intricacies and selling the value of a robust cyber security strategy to key stakeholders.
+        <br>
+        Pro tip: Today’s executives report being more open to new cyber security strategies than ever before. In 2020, 50% of
+        executives said that they were willing to consider cyber security as a factor in every business decision (compared to
+        only 25% the previous year). Use this as an opportunity to build foundations that will help create a sustainable and
+        safe future.
+        <br>
+        One of the most important things to emphasise in your CBA is the inherent trade-off between paying to prevent a mess
+        versus paying to clean up a mess. In 2020, attacks cost governments and businesses a whopping $1 trillion — that’s 1% of
+        global GDP. For individual companies, the average cost of a single data breach stood at $3.6 million. While UK insurers
+        now offer cover for ransomware demands — relieving some of the financial pressure on businesses — the ‘hidden’ costs of
+        an attack can still have a devastating effect on operations and a company’s bottom line. For instance:
+        <br>
+        In 2020, organisations spent an average of approximately £2.9 million pounds recovering from security incidents, while
+        the average lifecycle of a breach (from occurrence to containment) spanned 11 months.
+        Nearly 80% of companies experienced downtime due to cyber security incidents.
+        Lost business costs (including customer turnover and the effects of reputational damage) accounted for approximately 40%
+        of the average total cost of a data breach, reaching an all-time average high of $1.52 million in 2020.
+        Of course, investing in preventative cyber security measures also comes at a cost. In 2020, global spending on cyber
+        security reached an estimated $123 billion. By 2022, this number is on track to top $133 billion.
+        <br>
+        With that said, there is no reliable way to measure a ‘typical’ cyber security budget, as spending varies from business
+        to business and industry to industry. A Gartner report indicates that the average company spends anywhere from 1% to 13%
+        of its IT budget on cyber security. In the often-targeted financial service sector, that figure stands at around 10%.
+        Amongst large enterprises, 50% spend at least $1 million on cyber security each year, with another 43% spending at least
+        $250,000.
+        <br>
+        Despite these variations, one thing remains crystal clear: for most businesses, the cost of prevention pales in
+        comparison to the cost of a breach.
+        </p>
+    </section>
+    <section class="sources">
+        <p>
+            All the information have been taken from external websites and reviewed.
+            Sources: 6dg.co.uk - nordvpn.com - ncsc.co.uk  - euromoney.com - infocyte.com
+        </p>
+</body>
+</html>
